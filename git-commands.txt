@@ -1,11 +1,55 @@
-git basic commands
+GIT BASIC COMMANDS
 
 -> git status
 -> git init
 -> git add filename
 -> nfvnfjvnf
 -> git add .
-->> commit this files to repository
- 
- -> git config --global user.email "youremailid@gmail.com"
- -> git config --global user.name "your name"
+
+=> commit this files to repository
+  -> git config --global user.email "youremailid@gmail.com"
+  -> git config --global user.name "your name"
+
+  
+ => changes done by who
+  ->git log
+
+
+=>know exactly what you have changes
+  -> git diff
+  
+->git ls-files
+=>list all files available in straight line
+
+
+
+-> git rm filename
+ => remove from staging and local
+
+
+->git rm --cached filename
+=> remove from staging not frm local
+
+Brach
+-> git branch
+=>returns all branches
+
+-> git second-branch
+=>create another branch name is second branch
+
+-> git checkout second-branch
+=> switch to second branch
+
+-> git checkout -b third-branch
+=> create and switch to 3rd branch
+
+>git remote add origin url(git remote add origin https://github.com/vinay0varma/GithubDemo2.git)
+=>connect local to remote repository
+
+-> git push -u master
+=> push changes to remote repository from local repository
+
+->git push -u origin master
+=> push changes to remote repository from local repository
+
+->git
