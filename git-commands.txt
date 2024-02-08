@@ -1,0 +1,11 @@
+git basic commands
+
+-> git status
+-> git init
+-> git add filename
+-> nfvnfjvnf
+-> git add .
+->> commit this files to repository
+ 
+ -> git config --global user.email "youremailid@gmail.com"
+ -> git config --global user.name "your name"
