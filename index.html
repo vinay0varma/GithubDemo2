@@ -1,9 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
 <body>
+    <header>
+        <h1>Welcome to Our Car Website</h1>
+    </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <main>
+        <section id="car-carousel" class="carousel">
+            <button class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="carousel-control next" onclick="changeSlide(1)">&#10095;</button>
+            <div class="carousel-items"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Website. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
